@@ -1,98 +1,61 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-cc-js index</title>
+    <!-- <link rel="stylesheet" type="text/css"  href=""> -->
+    <style>
+        h1{
+           color: red; 
+        }
+        h2{
+            color: orange;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        .special{
+            background-color: black;
+            border: solid orange;
+            padding: 5px 10px;
+        }
+        p{
+            font-size: 18px;
+        }
+        li{
+            background-color: gray;
+            margin: 10px;
+            padding: 10px 30px;
+            list-style: none;
+        }
+        a{
+            color: green;
+            font-weight:bold
+            /* background */
         
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Mickey Mouse Blog
-        </title>
-    </head>
-    <body>
-        <h1>Mickey Mouse</h1>
-        <p>
-            Mickey Mouse is a fictional character in the Mickey Mouse animated series. He is the main protagonist of the series, and the main character of the Mickey Mouse Club.
-        </p>
+        }
+        p a{
+            background-color: pink;
+            padding: 5px 25px;
+            border: solid grey;
+            border-radius: 15px;
+        }
+    </style>      
+</head>
+<body>
+    <h1>My First Website with CSS!  See if you can make this red!</h1>
+    <p>See if you can make the font size in all the paragraphs to 18px!</p>
+    <h2>My Hobbies!  See if you can make me and all other h2 tags orange and have them show up in italic and underlined.</h2>
+    <p>My favorite hobbies are: </p>
+    <ul>
+        <li>Playing Soccer</li>
+        <li>Watching Anime</li>
+        <li>Eating Strawberries</li>
+   </ul>
+   <p>For all three lists above, make them have background colore of 'grey' and put a big padding of 10px on the top/bottom and 30px of padding on the left/right.  Have each list item be at least 10 pixels away from each other.</p>
+   <p>Also, remove the bullets in the unordered list.</p>
 
-        <div></div> 
-
-        <table>
-            <th>
-                <th>Number</th>
-                <th>Result</th>
-                <th>Record</th>
-                <th>Opponent</th>
-            </th>
-            <tbody> 
-                <tr>
-                    <td>1</td>
-                    <td>Win</td>
-                    <td>62-7-2</td>
-                    <td><a href="">google.com</a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Loss</td>
-                    <td>57-6-2</td>
-                    <td><a href="">cats.com</a></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Win</td>
-                    <td>56-5-2</td>
-                    <td><a href="">myspace.com</a></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <div></div>
-
-        <ul>
-            <li>Flyweight</li>
-            <li>Featherweight</li>
-            <li>Lightweight</li>
-            <li>Welterweight</li>
-        </ul>
-
-        <form action="process.php">
-            <h1>Please take a short survey</h1>
-
-            <label>
-                Email Address:  <input type="text" name="Email_Address">
-            </label>
-
-            <div></div>
-
-            <label>
-                <input type="radio" name="Yes, to newsletter"> Yes, I would like to receive newsletter
-            </label>
-
-            <div></div>
-
-            <label>
-                <input type="radio" name="No, to newsletter"> No, please do not send me newsletter
-            </label>
-
-            <p>How did hear about us?</p>
-            <label>
-                <input type="checkbox" name="Facebook"> Facebook
-            </label>
-            <div></div>
-            <label>
-                <input type="checkbox" name="Lyka"> Lyka
-            </label>
-            <div></div>
-            <label>
-                <input type="checkbox" name="Google"> Google
-            </label>
-            <div></div>
-            <label>
-                <input type="checkbox" name="Referral"> Referral
-            </label>
-
-            <div></div>
-
-            <input type="submit" value="Submit">
-        </form>
-        
-    </body>   
+   <h2 class='special'>Special Thanks (please put a 2px solid orange border around just this h2 tag, put some nice paddings and make the background color black)</h2>
+   <p>Thank you <a href="http://www.hackerhero.com">Hacker Hero</a>!  Please make the link green and also don't have it be underlined but instead just bold.  In addition, make this link look like a button!  More specifically, have it look like a button with padding of 5px on the top/bottom and 25px on the left/right.  Put a 1px solid border grey around the button, make the background color pink, and make the border's radius be around 15px.  Do other things to make it look cool!</p>
+</body>
 </html>

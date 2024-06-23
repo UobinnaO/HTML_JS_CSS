@@ -1,0 +1,35 @@
+/* The most common selectors are:
+
+all elements with a specific HTML tag (e.g., p, h1)
+class these are preceded by . in CSS, they cab target many elements 
+id (these are preceded by # in CSS) 
+
+element = HTML
+selector = CSS
+
+Specificity in this order:
+
+1. element (1 point)
+2. .class (10 points)
+3. #id (100 points)
+
+li            {...}  a=0 b=0 c=1 -> specificity =   1
+ul li         {...}  /* a=0 b=0 c=2 -> specificity =   2 */
+/* ul ol li      {...}  a=0 b=0 c=3 -> specificity =   3 */
+/* li.red        {...}  a=0 b=1 c=1 -> specificity =  11 */
+/* ul ol li.red  {...}  a=0 b=1 c=3 -> specificity =  13 */
+/* #list         {...}  a=1 b=0 c=0 -> specificity = 100 */
+
+/*
+be carefull with spaces 
+
+p.special and p .special
+
+The first one means a paragraph tag with the class "special". 
+The second one means a tag with the class "special" where it's parent is the paragraph tag.
+
+Width and Height- to make the content uniform on all devices use px, use % w resopon design
+
+Padding vs margin - padding is spacing inside the border and margin is spacing outside the border
+
+*/
