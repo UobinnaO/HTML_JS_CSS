@@ -30,6 +30,7 @@ The second one means a tag with the class "special" where it's parent is the par
 
 Width and Height- to make the content uniform on all devices use px, use % w resopon design
 
-Padding vs margin - padding is spacing inside the border and margin is spacing outside the border
+Padding vs margin - padding is spacing inside the border(inside the content around the content) 
+and margin is spacing outside the border
 
 */
