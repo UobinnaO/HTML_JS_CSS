@@ -33,4 +33,27 @@ Width and Height- to make the content uniform on all devices use px, use % w res
 Padding vs margin - padding is spacing inside the border(inside the content around the content) 
 and margin is spacing outside the border
 
+inline vs block vs inline-block:
+    vertical-align can be used to arrand contents with an inine-block
+
+Flex - allows our content/structure flexable
+flex components: container and item
+flex axis: main axis and cros axis, by defult main is horizantal but can be changed
+
+flex properties for containers
+    Display
+    Width & Height
+    Flex Direction
+    Flex Wrap
+    Justify Content
+    Align Content
+    Align Items
+flex properties for items
+    Height & Width
+    Order
+    Flex Basis
+    Flex Grow
+    Flex Shrink
+    Align Self
+    Margin
 */
