@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Demo</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            color: silver;
+            font-weight: 800;
+        }
+        section.div-container{
+            /* flex-wrap: wrap; */
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid silver;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            /* align-items: center; */
+            /* align-self: center; */
+            /* align-content: center; */
+        }
+        section.div-container div{
+            padding: 10px;
+            /* margin: 10px; */
+            flex: 0 0 100px;
+            border: 1px solid silver;
+            min-height: 100px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px;
+            /* text-align: center;
+            align-items: center;
+            align-content: center;
+            align-self: center; */
+        }
+        section.div-container div.green{
+            background-color: green;
+            /* flex: 0 0 800px; */
+        }
+        section.div-container div.blue{
+            background-color: blue;
+        }
+        section.div-container div.red{
+            background-color: red;
+            /* flex: 0 0 400px; */
+        }
+        section.div-container div.black{
+            background-color: black;
+        }
+        section.div-container div.pink{
+            background-color: pink;
+        }
+        section.div-container div.purple{
+            background-color: purple;
+        }
+        section.div-container div.yellow{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="div-container">
+            <div class="green">One</div>
+            <div class="blue">Two</div>
+            <!-- <div class="red">Three</div>
+            <div class="black">Four</div>
+            <div class="pink">Five</div>
+            <div class="purple">Six</div>
+            <div class="yellow">Seven</div> -->
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

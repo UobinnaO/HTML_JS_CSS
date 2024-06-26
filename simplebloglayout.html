@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Blog Layout</title>
     <style>
-        .center_content{
+        /* .center_content{
             align-content: center;
         }
         .center_text{
@@ -13,31 +13,118 @@
         }
         .center_grid{
             -ms-grid-row-align: center;
+        } */
+        *{
+            margin: 0px;
+            padding: 0px;;
+        }
+        a, h1, .footer-p{
+            text-decoration: none;
+            color: white;
+        }
+        div.Blog-name-header{
+            /* border: solid silver; */
+            padding: 5px;
+            /* margin: 10px; */
+            text-align: center;
+            background-color: purple;
+        }
+        nav.navigation ul.blog-nav-flex{
+            margin: 0px 0px;
+            padding: 5px;
+            /* border: solid 1px; */
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            list-style-type: none;
+            /* text-decoration: no; */
+            background-color: purple;
+        }
+        main{
+            /* background-color: white; */
+            background-color: #eee;
+            padding: 10px;
+        }
+        div.blog-list-container{
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 4px 4px 5px gray
+        }
+        div.title-des-set{
+            margin: 10px 1px;
+            padding: 10px 1px;
+            border-bottom: solid purple;
+        }
+        div.footer{
+            padding: 10px;
+            text-align: center;
+            background-color: purple;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="center_text">
-            <h1>My Blog</h1>
-            <ul>
+        <div class="Blog-name-header">
+            <h1>MY BLOG NAME</h1>
+        </div>
+        <nav class="navigation">
+            <!-- <div class="blog-nav-flex">Hello</div> -->
+            <ul class="blog-nav-flex">
                 <li><a href="home.com">Home</a></li>
                 <li><a href="about.com">About</a></li>
                 <li><a href="google.com">Contact</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
-        <h2>Blog Post Title</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    </div>
-    <div>
-        <h2>Another Blog Post Title</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-    </div>
-    <div class="center_text">
-        <footer>
-            <p>@2023 My Simple Blog</p>
-        </footer>
-    </div>
+    <main>
+        <div class="blog-list-container">
+            <div class="title-des-set">
+                <div class="blog-title-header">
+                    <h2>First Blog Post</h2>
+                </div>
+                <div class="short-content-description">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="title-des-set">
+                <div class="blog-title-header">
+                    <h2>Second Blog Post</h2>
+                </div>
+                <div class="short-content-description">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="title-des-set">
+                <div class="blog-title-header">
+                    <h2>Third Blog Post</h2>
+                </div>
+                <div class="short-content-description">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="title-des-set">
+                <div class="blog-title-heder">
+                    <h2>Fouth Blog Post</h2>
+                </div>
+                <div class="short-content-description">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="title-des-set">
+                <div class="blog-title-header">
+                    <h2>Fifth Blog Post</h2>
+                </div>
+                <div class="short-content-description">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="footer-p">@2023 My Simple Blog</p>
+        </div>
+    </footer>
 </body>
 </html>
