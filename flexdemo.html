@@ -16,40 +16,54 @@
             margin: 10px;
             padding: 10px;
             border: 1px solid silver;
+            /* width: 500px; */
+            /* height: 800px; */
             display: flex;
+            /* display: inline-flex; */
+            flex-direction: column;
+            /* flex-direction: column; */
+            /* flex: 0 0 50px; */
             flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-            /* align-items: center; */
+            /* gap: 10px; */
+            /* justify-content: center; */
+            /* align-items: baseline; */
             /* align-self: center; */
-            /* align-content: center; */
+            align-content: center;
         }
         section.div-container div{
             padding: 10px;
-            /* margin: 10px; */
-            flex: 0 0 100px;
+            margin: 10px;
+            /* flex: 0 0 100px; */
             border: 1px solid silver;
-            min-height: 100px;
+            /* max-height:300px; */
+            /* max-width: 300px; */
+            height: 150px;
+            width: 150px;
             border-radius: 10px;
             box-shadow: 5px 5px 5px;
-            /* text-align: center;
-            align-items: center;
-            align-content: center;
-            align-self: center; */
+            /* text-align: center; */
+            /* align-items: center; */
+            /* align-content: center; */
+            /* align-self: center;  */
         }
         section.div-container div.green{
             background-color: green;
-            flex: 0 0 800px;
+            /* flex: 0 0 800px; */
         }
         section.div-container div.blue{
             background-color: blue;
         }
         section.div-container div.red{
             background-color: red;
-            flex: 0 0 400px;
+            /* flex: 0 0 400px; */
         }
         section.div-container div.black{
             background-color: black;
+        }
+        section.div-container div.black:hover{
+            color: peru;
+            background-color: white;
+            transform: scale(1.50);
         }
         section.div-container div.pink{
             background-color: pink;
@@ -60,7 +74,12 @@
         section.div-container div.yellow{
             background-color: yellow;
         }
-    </style>
+        section.div-container div.yellow:hover{
+            color: blueviolet;
+            background-color: chartreuse;
+            transform: scale(.50);
+        }
+        </style>
 </head>
 <body>
     <header>

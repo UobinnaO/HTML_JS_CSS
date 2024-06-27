@@ -19,7 +19,75 @@
             margin: 0px;
             padding: 0px;
          }
-         
+          header{
+            /* margin: 0px 0px 10px 0px;  */
+            /* margin is top,right,down,left */
+            /* width:; */
+            /* height: 400px; */
+            background-image: url(https://t3.ftcdn.net/jpg/05/66/39/78/360_F_566397830_Eyld3KDOWRcqsQUWuZmC94jiiyud2Vv1.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            padding: 200px 0px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+          }
+
+          section{
+            padding: 10px;
+            background-color: #eee;
+            display: flex;
+            justify-content:center;
+            gap: 10px;
+            flex-wrap: wrap;
+          }
+          div.feature-container{
+            background-color: white;
+            padding: 70px 20px;
+            /* padding is up/down, left/right */
+            border: 1px solid silver;
+            border-radius: 3px;
+            box-shadow: gray 5px 5px 10px;
+        }
+        div.feature-container:hover{
+            transform: scale(1.05);
+            box-shadow: gray 5px 5px 5px; 
+        }
+        div.feature-p{
+            padding: 10px 0px;
+            box-shadow: gray 5px 5px 5px;
+          }
+          div.footer-p{
+            /* margin: 10px; */
+            padding: 10px;    
+            background-color: black;
+            text-align: center;
+          }
+          div.footer-p, header{
+            color: white;
+          }
+          div.page-btn, header div.page-p{
+            /* padding: 10px 0px; */
+          }
+          button{
+            padding: 12px;
+            /* border: 1px solid silver; */
+            border-radius: 10px;
+            color: white;
+            background-color: blue;
+            cursor: pointer;
+            /* text-align: center; */
+            /* display: inline-block; */
+            /* text-decoration: none; */
+            transition-duration: 0.4s;
+          }
+          button:hover{
+            background-color: rgb(37, 37, 111);
+            /* color: white; */
+          }
     </style>
 </head>
 <body>
@@ -36,38 +104,41 @@
     </header>
     <section>
         <div class="feature-container">
-            <div class="feture-header">
+            <div class="feature-header">
                 <div>
                     <h2>Feature One</h2>
                 </div>
             </div>
-            <div class="feture-p">
+            <div class="feature-p">
                 <div>
                     <p>Description of feature One</p>
                 </div>
             </div>
+        </div>
         <div class="feature-container">
-            <div class="feture-header">
+            <div class="feature-header">
                 <div>
                     <h2>Feature Two</h2>
                 </div>
             </div>
-            <div class="feture-p">
+            <div class="feature-p">
                 <div>
                     <p>Description of feature Two</p>
                 </div>
             </div>
+        </div>
         <div class="feature-container">
-            <div class="feture-header">
+            <div class="feature-header">
                 <div>
                     <h2>Feature Three</h2>
                 </div>
             </div>
-            <div class="feture-p">
+            <div class="feature-p">
                 <div>
                     <p>Description of feature Three</p>
                 </div>
             </div>
+        </div>
     </section>
     <footer>
         <div class="footer-p">
