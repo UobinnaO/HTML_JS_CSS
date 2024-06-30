@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Position Practice</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <style>
+        /* for very basic css reset */
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        /* end of css reset */
+
+        section{
+            width: 940px;
+            background-color: #FFD9B7;
+            margin: 0px auto;
+            padding: 20px;
+        }
+/* Do NOT change any CSS above this line. */
+
+/* Only adjust CSS below this line for the homework */
+        section{
+            display: table;
+        }
+        div#logo{
+            min-height: 130px;
+            width: 200px;
+            background-color: #B97A57;
+            display: inline-block;
+            margin: 0px 20px 0px 0px;
+            
+        }
+        nav{
+            min-height: 130px;
+            width: 720px;
+            background-color: #FF7F27;
+            display: inline-block;
+            /* margin: 0px 0px 0px 20px; */
+        }
+        main{
+            min-height: 250px;
+            width: 900px;
+            background-color: #880015;
+            padding: 20px;
+            display: table;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        main div.about{
+                min-height: 350px;
+                width: 620px;
+                background-color: #FFAEC9;
+                display: inline-block;
+                margin: 0px 20px 0px 0px;
+            }
+            main aside{
+                min-height: 200px;
+                width: 260px;
+                background-color: #C8BFE7;
+                display: inline-block;
+            }
+        div.sponsors{
+            min-height: 65px;
+            width: 300px;
+            background-color: #FFFF88;
+            display: inline-table;
+            margin-left: 6.6px;
+            margin-right: 6.6px;
+        }
+      </style>
+    </head>
+    <body>
+        <section>
+            <div id="logo">div#logo (200px wide)</div> 
+            <nav>nav (720px wide)</nav>
+            <main>
+                <div class="about">main div.about (620px wide)</div>
+                <aside>main aside (260px wide)</aside>
+            </main>
+            <div class="sponsors">div.sponsors (300px wide)</div> 
+            <div class="sponsors">div.sponsors (300px wide)</div>
+            <div class="sponsors">div.sponsors (300px wide)</div>
+        </section>
+    </body>
+</html>
